@@ -1,6 +1,6 @@
 /// Defines the animation durations for various animations in a video.
 ///
-class Durations {
+class MeeduDurations {
   /// The duration for showing and hiding the video fit overlay.
   final Duration videoFitOverlayDuration;
 
@@ -19,8 +19,8 @@ class Durations {
   /// The duration for seeking forward or backward in the video or audio player.
   final Duration seekDuration;
 
-  /// Creates a new instance of the Durations class with the specified durations.
-  const Durations({
+  /// Creates a new instance of the MeeduDurations class with the specified durations.
+  const MeeduDurations({
     this.videoFitOverlayDuration = const Duration(milliseconds: 250),
     this.volumeOverlayDuration = const Duration(milliseconds: 250),
     this.controlsDuration = const Duration(milliseconds: 250),
